@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{4C2C4783-940C-4C30-A924-228556F167B8}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>KeyBoardBurgers</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddDrinkCommand.cpp" />
+    <ClCompile Include="AddFriesCommand.cpp" />
+    <ClCompile Include="AddIngredientCommand.cpp" />
+    <ClCompile Include="BottomBun.cpp" />
+    <ClCompile Include="Cheese.cpp" />
+    <ClCompile Include="DatabaseController.cpp" />
+    <ClCompile Include="Fries.cpp" />
+    <ClCompile Include="GameController.cpp" />
+    <ClCompile Include="ImageSelection.cpp" />
+    <ClCompile Include="Ingredients.cpp" />
+    <ClCompile Include="IngredientsSimpleFactory.cpp" />
+    <ClCompile Include="Invoker.cpp" />
+    <ClCompile Include="Ketchup.cpp" />
+    <ClCompile Include="Lettuce.cpp" />
+    <ClCompile Include="LevelController.cpp" />
+    <ClCompile Include="Mustard.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="OutputActionsController.cpp" />
+    <ClCompile Include="Patty.cpp" />
+    <ClCompile Include="PlayerActionController.cpp" />
+    <ClCompile Include="PlayerBurger.cpp" />
+    <ClCompile Include="RecentActions.cpp" />
+    <ClCompile Include="Sides.cpp" />
+    <ClCompile Include="Soda.cpp" />
+    <ClCompile Include="NewCurrentLevel.cpp" />
+    <ClCompile Include="Tomato.cpp" />
+    <ClCompile Include="TopBun.cpp" />
+    <ClCompile Include="TrashBurgerCommand.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddDrinkCommand.h" />
+    <ClInclude Include="AddFriesCommand.h" />
+    <ClInclude Include="AddIngredientCommand.h" />
+    <ClInclude Include="BottomBun.h" />
+    <ClInclude Include="Cheese.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="DatabaseController.h" />
+    <ClInclude Include="Fries.h" />
+    <ClInclude Include="GameController.h" />
+    <ClInclude Include="ImageSelection.h" />
+    <ClInclude Include="IngredientsSimpleFactory.h" />
+    <ClInclude Include="Invoker.h" />
+    <ClInclude Include="NewCurrentLevel.h" />
+    <ClInclude Include="Order.h" />
+    <ClInclude Include="OutputActionsController.h" />
+    <ClInclude Include="Mustard.h" />
+    <ClInclude Include="LevelController.h" />
+    <ClInclude Include="Lettuce.h" />
+    <ClInclude Include="Ketchup.h" />
+    <ClInclude Include="Ingredients.h" />
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Patty.h" />
+    <ClInclude Include="PlayerActionController.h" />
+    <ClInclude Include="PlayerBurger.h" />
+    <ClInclude Include="RecentActions.h" />
+    <ClInclude Include="Sides.h" />
+    <ClInclude Include="Soda.h" />
+    <ClInclude Include="Tomato.h" />
+    <ClInclude Include="TopBun.h" />
+    <ClInclude Include="TrashBurgerCommand.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="levels_data.xml" />
+    <Xml Include="orders_data.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Documents\College Docs\SOFT 3330\project\KeyBoardBurgers\KeyBoardBurgers\BottomBun.png" />
+    <Image Include="..\..\..\..\..\Documents\College Docs\SOFT 3330\project\KeyBoardBurgers\KeyBoardBurgers\Cheese.png" />
+    <Image Include="..\..\..\..\..\Documents\College Docs\SOFT 3330\project\KeyBoardBurgers\KeyBoardBurgers\Ketchup.png" />
+    <Image Include="..\..\..\..\..\Documents\College Docs\SOFT 3330\project\KeyBoardBurgers\KeyBoardBurgers\Lettuce.png" />
+    <Image Include="..\..\..\..\..\Documents\College Docs\SOFT 3330\project\KeyBoardBurgers\KeyBoardBurgers\Mustard.png" />
+    <Image Include="..\..\..\..\..\Documents\College Docs\SOFT 3330\project\KeyBoardBurgers\KeyBoardBurgers\Patty.png" />
+    <Image Include="..\..\..\..\..\Documents\College Docs\SOFT 3330\project\KeyBoardBurgers\KeyBoardBurgers\Tomato.png" />
+    <Image Include="..\..\..\..\..\Documents\College Docs\SOFT 3330\project\KeyBoardBurgers\KeyBoardBurgers\TopBun.png" />
+    <Image Include="Fries.png" />
+    <Image Include="Soda.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
