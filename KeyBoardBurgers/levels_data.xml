@@ -3,7 +3,7 @@
   <record>
     <lvl>1</lvl>
     <locked>false</locked>
-    <highScore>5</highScore>
+    <highScore>0</highScore>
     <beatScore>4</beatScore>
     <ord>1</ord>
     <ord>2</ord>
@@ -13,8 +13,8 @@
   </record>
   <record>
     <lvl>2</lvl>
-    <locked>false</locked>
-    <highScore>5</highScore>
+    <locked>true</locked>
+    <highScore>0</highScore>
     <beatScore>4</beatScore>
     <ord>1</ord>
     <ord>3</ord>
@@ -24,8 +24,8 @@
   </record>
   <record>
     <lvl>3</lvl>
-    <locked>false</locked>
-    <highScore>4</highScore>
+    <locked>true</locked>
+    <highScore>0</highScore>
     <beatScore>3</beatScore>
     <ord>2</ord>
     <ord>3</ord>
@@ -34,8 +34,8 @@
   </record>
   <record>
     <lvl>4</lvl>
-    <locked>false</locked>
-    <highScore>7</highScore>
+    <locked>true</locked>
+    <highScore>0</highScore>
     <beatScore>5</beatScore>
     <ord>3</ord>
     <ord>5</ord>
@@ -47,8 +47,8 @@
   </record>
   <record>
     <lvl>5</lvl>
-    <locked>false</locked>
-    <highScore>12</highScore>
+    <locked>true</locked>
+    <highScore>0</highScore>
     <beatScore>8</beatScore>
     <ord>2</ord>
     <ord>8</ord>
@@ -65,8 +65,8 @@
   </record>
   <record>
     <lvl>6</lvl>
-    <locked>false</locked>
-    <highScore>4</highScore>
+    <locked>true</locked>
+    <highScore>0</highScore>
     <beatScore>3</beatScore>
     <ord>7</ord>
     <ord>17</ord>
@@ -76,7 +76,7 @@
   <record>
     <lvl>7</lvl>
     <locked>true</locked>
-    <highScore>18</highScore>
+    <highScore>0</highScore>
     <beatScore>13</beatScore>
     <ord>1</ord>
     <ord>2</ord>
@@ -100,7 +100,7 @@
   <record>
     <lvl>8</lvl>
     <locked>true</locked>
-    <highScore>15</highScore>
+    <highScore>0</highScore>
     <beatScore>13</beatScore>
     <ord>2</ord>
     <ord>3</ord>
