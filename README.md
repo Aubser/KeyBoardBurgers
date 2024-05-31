@@ -1,3 +1,4 @@
+Authors: Aubrey Pilling (Swenson), Alex Blob, Adrian Artega, Noah Nouansacksy
 # KeyBoardBurgers
 A game where the player completes orders, including constructing a burger using the keyboard. The game consists of 10 levels, which must be completed successively, each level unlocking the next one. 
 
